@@ -1,6 +1,6 @@
 # Description of the problem:
 
-Company & Co. is a virtual international real estate company focused in renting coworking spaces, based in Central Europe. The company is extending its business to Madrid, capital of Spain, due to the good communications of the city and national and international relevance to make business.
+Company & Co. is a virtual international real estate company focused in renting coworking spaces, based in Central Europe. The company is extending its business to Southern Europe, choosing Madrid, capital of Spain, for a new coworking space, due to the good communications of the city and national and international relevance to make business.
 
 However, the company is facing problems since it is not familiar with the city or the country, so they are requiring an analysis of data science experts to analyse several relevant data about the city, to choose the Madrid’s district or neighbourhood most suitable for the expansion of Company & Co.
 
