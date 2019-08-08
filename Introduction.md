@@ -4,7 +4,7 @@
 
 However, the company is facing problems since it is not familiar with the city nor the country, so they are requiring an analysis from data science experts in order to process several relevant data about the city. The main issue is to choose the Madrid city’s district or neighbourhood most suitable for the expansion of Company & Co to install the new coworking space.
 
-**The business managers have of Company & Co, our target audience and main stakeholder,** transmitted to the data science team some clear ideas about the basic requirements of the new placement:
+**The business managers of Company & Co, our target audience and main stakeholder,** transmitted to the data science team some clear ideas about the basic requirements of the new placement:
 
 - Close to **public transport**, specially **Metro stations** (Subway), to ease the access to the users of the coworking spaces.
 - Close to **offices and business centers**, to network with other businesses.
