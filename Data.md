@@ -30,8 +30,7 @@ Regarding the data to be used, the data science team has found the following sou
 * Data to be obtained: Services (Public transport, offices/business centers, hotels, restaurants…) and geographical data of the venues.
 
 #### Example:
-> url = 'https://api.foursquare.com/v2/venues/search?client_id={}&client_secret={}&ll={},{}&v={}&radius={}&limit={}'.format(CLIENT_ID, CLIENT_SECRET, neighborhood_latitude, neighborhood_longitude, VERSION, radius, LIMIT)  
-> results = requests.get(url).json()  
+>url = 'https://api.foursquare.com/v2/venues/search?client_id={}&client_secret={}&ll={},{}&v={}&radius={}&limit={}'.format(CLIENT_ID, CLIENT_SECRET, neighborhood_latitude, neighborhood_longitude, VERSION, radius, LIMIT)
 
 ### Preprocessing and data wrangling:
 We need to see how to group the areas to join the data from Madrid’s municipality data bank. We can focus on districts, neighborhoods or postal codes depending on the availability of the data obtained.
