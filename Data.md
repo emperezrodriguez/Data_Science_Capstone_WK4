@@ -9,7 +9,7 @@ Regarding the data to be used, the data science team has found the following sou
 * Data to be obtained: Districts (Nombre del distrito), neighborhoods(Nombre del barrio), postal codes(Codigo  Postal), geographical locations(Longitud, Latitud) and land value.
 
 #### Example:
-> data=pd.read_csv('https://datos.madrid.es/egob/catalogo/200075-1-callejero.csv', encoding='iso-8859-1', sep=';')
+> data=pd.read_csv('https://datos.madrid.es/egob/catalogo/200075-1-callejero.csv', encoding='iso-8859-1', sep=';')  
 
 ### OpenStreetMap API
 * Website: https://www.openstreetmap.org/
@@ -18,10 +18,10 @@ Regarding the data to be used, the data science team has found the following sou
 * Data to be obtained: Geographical data of the districts, neighborhoods and postal codes.
 
 #### Example:
-> from geopy.geocoders import Nominatim
-> geolocator = Nominatim(user_agent="OpenStreetMaps")
-> geocode = RateLimiter(geolocator.geocode, min_delay_seconds=1)
-> df['Search'].apply(geocode)
+> from geopy.geocoders import Nominatim  
+> geolocator = Nominatim(user_agent="OpenStreetMaps")  
+> geocode = RateLimiter(geolocator.geocode, min_delay_seconds=1)  
+> df['Search'].apply(geocode)  
 
 ### Foursquare API
 * Website: https://es.foursquare.com/developers/
@@ -30,9 +30,9 @@ Regarding the data to be used, the data science team has found the following sou
 * Data to be obtained: Services (Public transport, offices/business centers, hotels, restaurants…) and geographical data of the venues.
 
 #### Example:
-> url = 'https://api.foursquare.com/v2/venues/search?client_id={}&client_secret={}&ll={},{}&v={}&radius={}\
-> &limit={}'.format(CLIENT_ID, CLIENT_SECRET, neighborhood_latitude, neighborhood_longitude, VERSION, radius, LIMIT)
-> results = requests.get(url).json()
+> url = 'https://api.foursquare.com/v2/venues/search?client_id={}&client_secret={}&ll={},{}&v={}&radius={}\  
+> &limit={}'.format(CLIENT_ID, CLIENT_SECRET, neighborhood_latitude, neighborhood_longitude, VERSION, radius, LIMIT)  
+> results = requests.get(url).json()  
 
 ### Preprocessing and data wrangling:
 We need to see how to group the areas to join the data from Madrid’s municipality data bank. We can focus on districts, neighborhoods or postal codes depending on the availability of the data obtained.
