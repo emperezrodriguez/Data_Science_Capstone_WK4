@@ -1,4 +1,4 @@
-<title>Description of the problem:</title>
+Description of the problem:
 
 Company & Co. is a virtual international real estate company focused in renting coworking spaces, based in Central Europe. The company is extending its business to Madrid, capital of Spain, due to the good communications of the city and national and international relevance to make business.
 
