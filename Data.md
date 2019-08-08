@@ -30,8 +30,7 @@ Regarding the data to be used, the data science team has found the following sou
 * Data to be obtained: Services (Public transport, offices/business centers, hotels, restaurants…) and geographical data of the venues.
 
 #### Example:
-> url = 'https://api.foursquare.com/v2/venues/search?client_id={}&client_secret={}&ll={},{}&v={}&radius={}\  
-> &limit={}'.format(CLIENT_ID, CLIENT_SECRET, neighborhood_latitude, neighborhood_longitude, VERSION, radius, LIMIT)  
+> url = 'https://api.foursquare.com/v2/venues/search?client_id={}&client_secret={}&ll={},{}&v={}&radius={}&limit={}'.format(CLIENT_ID, CLIENT_SECRET, neighborhood_latitude, neighborhood_longitude, VERSION, radius, LIMIT)  
 > results = requests.get(url).json()  
 
 ### Preprocessing and data wrangling:
