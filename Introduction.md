@@ -6,9 +6,9 @@ However, the company is facing problems since it is not familiar with the city o
 
 The business development managers have transmitted to the data science team some clear ideas about the basic requirements of the new placement:
 
-- Close to public transport, specially Metro stations (Subway), to ease the access to the users of the coworking spaces.
-- Close to offices and business centers, to network with other businesses.
-- Close to hotels, making easier to receive international clients.
-- Close to restaurants of any kind.
+- Close to <b>public transport</b>, specially <b>Metro stations</b> (Subway), to ease the access to the users of the coworking spaces.
+- Close to <b>offices and business centers</b>, to network with other businesses.
+- Close to <b>hotels</b>, making easier to receive international clients.
+- Close to <b>restaurants</b> of any kind.
 
-It is also important for Company & Co. to have a comparison of the land value in each district, to make the final decission.
+It is also important for Company & Co. to have a comparison of the <b>land value</b> in each district, to make the final decission.
