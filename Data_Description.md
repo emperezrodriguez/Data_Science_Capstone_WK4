@@ -32,7 +32,7 @@ Regarding the data to be used, the data science team has found the following sou
 > Longitude=g.x
 > Latitude=g.y
 
-### Preprocessing and data wrangling:
+## Preprocessing and data wrangling:
 For this problem, we have decided to select the **neighborhood** as the minimal division of Madrid's urban area. There are in total 131 different administrative neighborhoods to be analysed.
 
 We will get the data related to neighborhoods and geographical coordinates from the official Madrid's municipality data bank previously mentioned in **CSV** format. This data has the columns names in Spanish language and sometimes uses acronyms, so we will preprocess the data to get the columns in a readable English language in this case. 
