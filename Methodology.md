@@ -9,4 +9,4 @@ After that, we will cluster the neighborhoods using the **k-means** algorithm. T
 
 As an extra, once we get all the clusters, we will do a **weighted scoring** regarding the most important venues mentioned by Company&Co: Hotels, restaurants and metro stations. We will need a column for each of these venues and an extra one with the obtained score.
 
-This way, in the end, we will obtain the most suitable neighborhoods for the Cohttps://github.com/emperezrodriguez/Data_Science_Capstone_WK4/blob/master/Problem_Description.mdmpany&Co expansion in order of preference, so our client can make a decision easier.https://github.com/emperezrodriguez/Data_Science_Capstone_WK4/blob/master/Problem_Description.md
+This way, in the end, we will obtain the most suitable neighborhoods for the Cohttps://github.com/emperezrodriguez/Data_Science_Capstone_WK4/blob/master/Problem_Description.mdmpany&Co expansion in order of preference, so our client can make a decision easier.
