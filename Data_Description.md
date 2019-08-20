@@ -1,4 +1,4 @@
-# Description of the data:
+# Data description:
 
 Regarding the data to be used, the data science team has found the following sources:
 
