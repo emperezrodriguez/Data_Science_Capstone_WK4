@@ -39,15 +39,4 @@ We will get the data related to neighborhoods and geographical coordinates from 
 
 The coordinates in the data of Madrid's data bank are given in WGS84 format. We will need to convert them to decimal format using libraries and some customized functions in Python, what generates some aditional tasks for the data wrangling. We will count on the **geocoder** library if it is necessary for this purpose.
 
-Once we have the neighborhoods and coordinates are obtained, we can start working in the acquisition of data from **Foursquare API**. We will first get all the main venues for each neighborhood for clustering the neighborhoods.
-
-For the clustering, we will need to obtain a complete dataframe with the following columns:
-
-* Neighborhood: Division of Madrid's urban area.
-* Top 10 venues per neighborhood: One in each column of the data frame.
-
-After that, we will cluster the neighborhoods using the **k-means** algorithm. This way, we will separate the 131 neighborhoods of Madrid in 10 different clusters by similarity. We will obtained a 'Cluster Label' column with the obtained cluster and plot the neighborhoods cordinates in a map, painting the ones of each cluster in a different color to make the information easily understandable.
-
-As an extra, once we get all the clusters, we will do a **weighted scoring** regarding the most important venues mentioned by Company&Co: Hotels, restaurants and metro stations. We will need a column for each of these venues and an extra one with the obtained score.
-
-This way, in the end, we will obtain the most suitable neighborhoods for the Company&Co expansion in order of preference, so our client can make a decision easier.
+Once we have the neighborhoods and coordinates are obtained, we can start working in the acquisition of data from **Foursquare API**. We will first get all the main venues for each neighborhood for clustering the neighborhoods later.
