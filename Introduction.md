@@ -1,4 +1,4 @@
-# Problem description:
+# Introduction:
 
 **Company & Co.** is a virtual international real estate company focused in renting offices and coworking spaces, based in Central Europe. The company is extending its business to Southern Europe, choosing **Madrid** for the expansion, since the company have some partner companies already there. Madrid, capital of Spain and the 4th most populated city in Europe, also has the advantages of very good communications to the city and regional and international relevance to make business in Southern Europe.
 
