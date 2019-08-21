@@ -2,4 +2,4 @@
 
 Assignment for week 4 of Data Science Capstone IBM Course at Coursera. 
 
-Submitted by <b>Eduardo M. Pérez Rodríguez.</b>
+Submitted by <b>Eduardo Manuel Pérez Rodríguez.</b>
