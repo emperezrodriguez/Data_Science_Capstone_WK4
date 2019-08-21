@@ -1,0 +1,4 @@
+# .gitignore should include reference to config.py
+CLIENT_ID = 'G0ZTGSDXQUESL3IMITSJQR0I4QISQGERHULRDKC4OHNCYGJE' # your Foursquare ID
+CLIENT_SECRET = '33K0JOBK0PDCWVCEMLA2EQAT4U1Z0GW0E3ZIJKNOK13JI3JW' # your Foursquare Secret
+VERSION = '20180605' # Foursquare API version
